@@ -1,9 +1,16 @@
-body {
-    background: #96ffc1;
+*{
+    box-sizing: border-box;
 }
 
-.Character {
-    width: 32px;
-    height: 32px;
-    overflow: hidden; 
+body {
+    background: #333;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 352px;
+    height: 198px;
 }
