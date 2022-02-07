@@ -6,9 +6,14 @@ class Overworld {
     }
 
     init() {
-        console.log("Hello!", this);
+        const image = new Image();
+        image.onload = () => {
+            // this.ctx.drawImage() //
+        };
+
+        image.src = "/images/maps/DemonLower.png";
     }
 
-    
+
 
 }
