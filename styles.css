@@ -16,4 +16,6 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     outline: 1px solid #fff;
+
+    transform: scale(3);
 }
