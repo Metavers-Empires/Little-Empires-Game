@@ -12,6 +12,13 @@ class Overworld {
         };
 
         image.src = "/images/maps/DemonLower.png";
+
+        const hero = new Image();
+        hero.onload = () => {
+            this.ctx.drawImage()
+        }
+        hero.src = "/images/characters/people/gero.png"
+
     }
 
 
